@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+}
+.quoted{
+  position:relative;
+  z-index: 1;
+}
+#quote-box{
+  width: 400px;
+  min-height: 200px;
+  height:auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 40px 50px;
+  background: aqua;
+}
+#quote-text{
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+}
+#quote-author{
+  width:100%;
+  padding-top: 20px;
+  text-align: right;
+  font-size: 1em;
+  font-weight:550;
+}
+
+.buttons{
+  width: 100%;
+  height:auto;
+  margin: auto;
+  padding:0;
+  display: block;
+  border-top: 1px solid;
+}
+.button{
+  margin-top:30px;
+  cursor: pointer;
+  background: pink
+}
+a{
+  float: left;
+  padding:8px;
+  font-size: 1.3em;
+  width: 20px;
+  height: 30px;
+  text-align:center;
+  margin-right: 28px;
+  border-radius:11px
+}
+a:hover {
+  background-color: powderblue;
+  transition: background-color .5s;
+}
+button{
+  float: right;
+  padding:8px;
+  font-size: 0.9em;
+  text-align:center;
+  margin-right: 20px;
+  border-radius:12px
+  
+}

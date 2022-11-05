@@ -1,0 +1,11 @@
+{
+  "name": "freecode",
+  "version": "1.0.0",
+  "description": "Api freeCode Camp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cesar Rodriguez <checkcr098@gmail.com>",
+  "license": "ISC"
+}
